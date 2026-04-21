@@ -1,0 +1,89 @@
+/* assets/css/style.css */
+
+:root {
+    --primary-color: #0056b3;  /* Royal Blue */
+    --secondary-color: #FFD700; /* Gold */
+    --bg-color: #FFFDD0;       /* Milk/Cream */
+    --text-color: #333;
+    --white: #ffffff;
+    --danger: #dc3545;
+    --success: #28a745;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Auth Pages (Login) */
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    background: var(--white);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-top: 5px solid var(--primary-color);
+    text-align: center;
+}
+
+.school-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+h1, h2, h3 { color: var(--primary-color); }
+
+input[type="text"], input[type="password"], select, input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Fixes padding issues */
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+}
+
+/* Dashboard Layout */
+.wrapper { display: flex; }
+.sidebar {
+    width: 250px;
+    background: var(--primary-color);
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.sidebar a:hover { background: rgba(255,255,255,0.1); border-left: 4px solid var(--secondary-color); }
+.main-content { flex: 1; padding: 20px; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; background: white; margin-top: 20px; }
+th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+th { background-color: var(--primary-color); color: white; }
