@@ -22,7 +22,7 @@ Teacher: Dedicated portal for seamlessly entering and updating CA and Exam score
 Student: Personal portal to view academic history and print terminal report cards.
 
 🛠️ Built With
-Frontend: HTML5, CSS3
+Frontend: HTML5, CSS3 AND JAVASCRIPT
 
 Backend: PHP (Hypertext Preprocessor)
 
