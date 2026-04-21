@@ -1,10 +1,11 @@
 # my_school_mate
-📝 About the Project
+📝 About the Project:
+
 The Secondary School Result Management System is a digital solution built to replace manual grading and record-keeping. It allows administrators and teachers to easily manage student data, input continuous assessment (CA) and exam scores, automatically compute totals and grades, and generate termly report cards.
 
 This project aims to reduce calculation errors, save time for educators, and provide a secure database for student academic histories.
 
-✨ Key Features
+✨ Key Features:
 Student Management: Add, update, and manage student profiles, including classes and admission numbers.
 
 Score Entry: Dedicated portals for teachers to input Continuous Assessment (CA) and final Exam scores.
